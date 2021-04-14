@@ -19,7 +19,7 @@ describe('Login', ()=>{
     it('Login inválido', ()=>{
 
         cy.request({
-            url: '/api/v1/login/admin',
+            url: '/apiDoProject/v999/administratorDeTodoProjeto',
             method:'POST',
             failOnStatusCode: false,
             body:{
